@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.79 s <<< FAILURE! - in TestSuite
+test_scripts.LoginTestScript.test  Time elapsed: 0.25 s  <<< FAILURE!
+java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@27d5a580]
+	at test_scripts.LoginTestScript.test(LoginTestScript.java:18)
+
