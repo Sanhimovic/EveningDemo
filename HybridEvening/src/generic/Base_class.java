@@ -19,7 +19,6 @@ public class Base_class implements Framework_constants
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(url);
 	}
-	
 	@AfterMethod
 	public void close(ITestResult res) throws InterruptedException, IOException
 	{
